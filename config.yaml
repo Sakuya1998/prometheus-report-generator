@@ -1,0 +1,11 @@
+prometheus:  
+  playlet:
+    url: "http://54.177.151.254:9090"
+  dashflix:
+    url: "http://47.128.248.66:9090"
+
+logging:
+  level: "info"
+  path: "./logs"
+  max_age: 30
+  compress: true
